@@ -434,10 +434,10 @@ section.module p:last-child {
   margin-bottom: 0;
 }
 section.module.content {
-  padding: 10px 0;
+  padding: 2px 0;
 }
 section.module.parallax {
-  height: 520px;
+  height: 510px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
