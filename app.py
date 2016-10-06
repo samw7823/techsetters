@@ -3,7 +3,6 @@ from flask import Flask, jsonify, render_template, request
 app = Flask(__name__)
 
 @app.route("/")
-
 def hello():
     return render_template('index.html')
 @app.route("/sources")
@@ -13,10 +12,10 @@ def sources():
     return render_template('source.html')
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0")
+    app.run(host="0.0.0.0", port=5000)
 
-from flask import Flask, jsonify, render_template
-import json, os
+#from flask import Flask, jsonify, render_template
+#import json, os
 
 #app = Flask(__name__)
 #app.config["DEBUG"] = True
@@ -24,7 +23,7 @@ import json, os
 #section title
 #subheading
 #paragraph stuff
-website_info = None
+#website_info = None
 
 #@app.route("/")
 #def hello():
